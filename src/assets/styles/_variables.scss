@@ -1,0 +1,57 @@
+// 颜色取名的网址： http://chir.ag/projects/name-that-color/
+$rem-base: 10;
+@function px2rem($px) {
+  @return ($px / $rem-base)+rem;
+}
+
+// color
+$mine-shaft: #333333;
+$dove-gray: #666666;
+$dusty-gray: #999999;
+$flamingo: #F15440;
+$alabaster: #f9f9f9;
+$white: #ffffff;
+$chardon: #FFF3F1;
+$mecury: #E5E5E5;
+$havelock-blue: #4A90E2;
+$blue: #6195ED;
+$carrot-orange: #F4931F;
+$milk-punch: #FFF8D8;
+$black: #000000;
+$wild-sand: #f5f5f5;
+$seashell: #F1F1F1;
+$background-color:#f2f2f2;
+$cornflower-blue: #775ef6;
+$facebook-bg-color: #3b5998;
+$policy-color: #00c316;
+$blue-dust:#f4f8fb;
+$green:#00C316;
+$red:#F15440;
+$bloodred:#C30000;
+$backred:#FBF4F4;
+$icon-color: #ccc;
+$title-background-color: #fbfbfb;
+$greyc5:#c5c5c5;
+$greyee:#eeeeee;
+$tracking-orange:#fb8e00;
+// font-size
+$xx-small: px2rem(10);
+$x-small: px2rem(12);
+$small: px2rem(14);
+$medium: px2rem(16);
+$large: px2rem(18);
+$x-large: px2rem(20);
+$xx-large: px2rem(24);
+// 特殊的大小
+$size30: px2rem(30);
+$size36: px2rem(36);
+// border
+$border: 1px solid $mecury;
+$button-border: 1px solid $dusty-gray;
+$button-radius: 2px;
+// function
+// 转换成vw时候的基准，以iPhone6尺寸作为s合计稿基准
+$vm-base: 375;
+@function px2vw($px) {
+  @return ($px / $vm-base) * 100vw;
+}

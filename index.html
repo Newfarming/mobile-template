@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Club Factory: Online Shopping Site for Fashion and Mobile Accessories. Buy Clothes, Shoes, Bags, Jewelry, Mobile Accessories and Housekeeping tools. Everything at Fair Prices. Huge Selection.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="Keywords" content="Club Factory">
+  <link rel="canonical" href="https://www.clubfactory.com/shopping" />
+  <title>Club Factory | Lower Price, Better Service</title>
+
+  <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+  <!-- Add to home screen for Android and modern mobile browsers -->
+
+  <link rel="preconnect" href="<%= htmlWebpackPlugin.options.staticPrefix %>">
+  <% for (var dns of htmlWebpackPlugin.options.env.dns){%>
+    <link rel="dns-prefetch" href="<%= dns%>">
+    <% } %>
+      <!-- Google Analytics -->
+      <script async src='https://www.google-analytics.com/analytics.js'></script>
+      <!-- End Google Analytics -->
+</head>
+
+<body>
+  <noscript>
+    This is your fallback content in case JavaScript fails to load.
+  </noscript>
+  <div id="app"></div>
+  <!-- Todo: only include in production -->
+  <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
