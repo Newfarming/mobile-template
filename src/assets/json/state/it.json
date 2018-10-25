@@ -1,0 +1,442 @@
+[
+    {
+        "value": 870,
+        "label": "Chieti"
+    },
+    {
+        "value": 871,
+        "label": "L'Aquila"
+    },
+    {
+        "value": 872,
+        "label": "Pescara"
+    },
+    {
+        "value": 873,
+        "label": "Teramo"
+    },
+    {
+        "value": 874,
+        "label": "Aosta"
+    },
+    {
+        "value": 875,
+        "label": "Bari"
+    },
+    {
+        "value": 876,
+        "label": "Barletta-Andria-Trani"
+    },
+    {
+        "value": 877,
+        "label": "Brindisi"
+    },
+    {
+        "value": 878,
+        "label": "Foggia"
+    },
+    {
+        "value": 879,
+        "label": "Lecce"
+    },
+    {
+        "value": 880,
+        "label": "Taranto"
+    },
+    {
+        "value": 881,
+        "label": "Matera"
+    },
+    {
+        "value": 882,
+        "label": "Potenza"
+    },
+    {
+        "value": 883,
+        "label": "Catanzaro"
+    },
+    {
+        "value": 884,
+        "label": "Cosenza"
+    },
+    {
+        "value": 885,
+        "label": "Crotone"
+    },
+    {
+        "value": 886,
+        "label": "Reggio Calabria"
+    },
+    {
+        "value": 887,
+        "label": "Vibo Valentia"
+    },
+    {
+        "value": 888,
+        "label": "Avellino"
+    },
+    {
+        "value": 889,
+        "label": "Benevento"
+    },
+    {
+        "value": 890,
+        "label": "Caserta"
+    },
+    {
+        "value": 891,
+        "label": "Napoli"
+    },
+    {
+        "value": 892,
+        "label": "Salerno"
+    },
+    {
+        "value": 893,
+        "label": "Bologna"
+    },
+    {
+        "value": 894,
+        "label": "Ferrara"
+    },
+    {
+        "value": 895,
+        "label": "Forlì-Cesena"
+    },
+    {
+        "value": 896,
+        "label": "Modena"
+    },
+    {
+        "value": 897,
+        "label": "Parma"
+    },
+    {
+        "value": 898,
+        "label": "Piacenza"
+    },
+    {
+        "value": 899,
+        "label": "Ravenna"
+    },
+    {
+        "value": 900,
+        "label": "Reggio Emilia"
+    },
+    {
+        "value": 901,
+        "label": "Rimini"
+    },
+    {
+        "value": 902,
+        "label": "Gorizia"
+    },
+    {
+        "value": 903,
+        "label": "Pordenone"
+    },
+    {
+        "value": 904,
+        "label": "Trieste"
+    },
+    {
+        "value": 905,
+        "label": "Udine"
+    },
+    {
+        "value": 906,
+        "label": "Frosinone"
+    },
+    {
+        "value": 907,
+        "label": "Latina"
+    },
+    {
+        "value": 908,
+        "label": "Rieti"
+    },
+    {
+        "value": 909,
+        "label": "Roma"
+    },
+    {
+        "value": 910,
+        "label": "Viterbo"
+    },
+    {
+        "value": 911,
+        "label": "Genova"
+    },
+    {
+        "value": 912,
+        "label": "Imperia"
+    },
+    {
+        "value": 913,
+        "label": "Provincia della Spezia"
+    },
+    {
+        "value": 914,
+        "label": "Savona"
+    },
+    {
+        "value": 915,
+        "label": "Bergamo"
+    },
+    {
+        "value": 916,
+        "label": "Brescia"
+    },
+    {
+        "value": 917,
+        "label": "Como"
+    },
+    {
+        "value": 918,
+        "label": "Cremona"
+    },
+    {
+        "value": 919,
+        "label": "Lecco"
+    },
+    {
+        "value": 920,
+        "label": "Lodi"
+    },
+    {
+        "value": 921,
+        "label": "Mantova"
+    },
+    {
+        "value": 922,
+        "label": "Milano"
+    },
+    {
+        "value": 923,
+        "label": "Monza e della Brianza"
+    },
+    {
+        "value": 924,
+        "label": "Pavia"
+    },
+    {
+        "value": 925,
+        "label": "Sondrio"
+    },
+    {
+        "value": 926,
+        "label": "Varese"
+    },
+    {
+        "value": 927,
+        "label": "Ancona"
+    },
+    {
+        "value": 928,
+        "label": "Ascoli Piceno"
+    },
+    {
+        "value": 929,
+        "label": "Fermo"
+    },
+    {
+        "value": 930,
+        "label": "Macerata"
+    },
+    {
+        "value": 931,
+        "label": "Pesaro e Urbino"
+    },
+    {
+        "value": 932,
+        "label": "Campobasso"
+    },
+    {
+        "value": 933,
+        "label": "Isernia"
+    },
+    {
+        "value": 934,
+        "label": "Alessandria"
+    },
+    {
+        "value": 935,
+        "label": "Asti"
+    },
+    {
+        "value": 936,
+        "label": "Biella"
+    },
+    {
+        "value": 937,
+        "label": "Cuneo"
+    },
+    {
+        "value": 938,
+        "label": "Novara"
+    },
+    {
+        "value": 939,
+        "label": "Torino"
+    },
+    {
+        "value": 940,
+        "label": "Verbano Cusio Ossola"
+    },
+    {
+        "value": 941,
+        "label": "Vercelli"
+    },
+    {
+        "value": 942,
+        "label": "Cagliari"
+    },
+    {
+        "value": 943,
+        "label": "Carbonia-Iglesias"
+    },
+    {
+        "value": 944,
+        "label": "Medio Campidano"
+    },
+    {
+        "value": 945,
+        "label": "Nuoro"
+    },
+    {
+        "value": 946,
+        "label": "Ogliastra"
+    },
+    {
+        "value": 947,
+        "label": "Olbia-Tempio"
+    },
+    {
+        "value": 948,
+        "label": "Oristano"
+    },
+    {
+        "value": 949,
+        "label": "Sassari"
+    },
+    {
+        "value": 950,
+        "label": "Agrigento"
+    },
+    {
+        "value": 951,
+        "label": "Caltanissetta"
+    },
+    {
+        "value": 952,
+        "label": "Catania"
+    },
+    {
+        "value": 953,
+        "label": "Enna"
+    },
+    {
+        "value": 954,
+        "label": "Messina"
+    },
+    {
+        "value": 955,
+        "label": "Palermo"
+    },
+    {
+        "value": 956,
+        "label": "Ragusa"
+    },
+    {
+        "value": 957,
+        "label": "Siracusa"
+    },
+    {
+        "value": 958,
+        "label": "Trapani"
+    },
+    {
+        "value": 959,
+        "label": "Trento"
+    },
+    {
+        "value": 960,
+        "label": "Bolzano"
+    },
+    {
+        "value": 961,
+        "label": "Arezzo"
+    },
+    {
+        "value": 962,
+        "label": "Firenze"
+    },
+    {
+        "value": 963,
+        "label": "Grosseto"
+    },
+    {
+        "value": 964,
+        "label": "Livorno"
+    },
+    {
+        "value": 965,
+        "label": "Lucca"
+    },
+    {
+        "value": 966,
+        "label": "Massa-Carrara"
+    },
+    {
+        "value": 967,
+        "label": "Pisa"
+    },
+    {
+        "value": 968,
+        "label": "Pistoia"
+    },
+    {
+        "value": 969,
+        "label": "Prato"
+    },
+    {
+        "value": 970,
+        "label": "Siena"
+    },
+    {
+        "value": 971,
+        "label": "Perugia"
+    },
+    {
+        "value": 972,
+        "label": "Terni"
+    },
+    {
+        "value": 973,
+        "label": "Belluno"
+    },
+    {
+        "value": 974,
+        "label": "Padova"
+    },
+    {
+        "value": 975,
+        "label": "Treviso"
+    },
+    {
+        "value": 976,
+        "label": "Rovigo"
+    },
+    {
+        "value": 977,
+        "label": "Venezia"
+    },
+    {
+        "value": 978,
+        "label": "Verona"
+    },
+    {
+        "value": 979,
+        "label": "Vicenza"
+    }
+]

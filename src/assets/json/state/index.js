@@ -24,7 +24,8 @@ const countryCodes = [
   'sg',
   'th',
   'us',
-  'vn'
+  'vn',
+  'it'
 ]
 
 function getStates () {

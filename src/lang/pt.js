@@ -96,6 +96,7 @@ export default {
     'state': 'Negara Bagian',
     'street': 'Nama Jalan & No, Nama Gedung, No. Apartemen (dalam bahasa Inggris)',
     'pincode': 'Kode pin',
+    'CAP': 'CAP',
     'optional': '(Optional)',
     'cpf': 'CPF',
     'coupon': 'Masukkan kode promo Anda',

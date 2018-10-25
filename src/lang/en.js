@@ -122,6 +122,7 @@ export default {
     state: 'State',
     street: 'Street Name & NO., Building Name, Apartment No (in English)',
     pincode: 'Pincode',
+    CAP: 'CAP',
     optional: '(Optional)',
     cpf: 'CPF',
     coupon: 'ENTER YOUR PROMO CODE',

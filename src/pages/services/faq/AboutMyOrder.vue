@@ -1,0 +1,29 @@
+<template>
+  <div class="service-container">
+    <h3>{{$t('faqText.order.h1')}}</h3>
+    <p>
+      <b>{{$t('faqText.order.b1')}}</b>
+    </p>
+    <p>{{$t('faqText.order.p1')}}</p>
+    <p>
+      <b>{{$t('faqText.order.b2')}}</b>
+    </p>
+    <p>{{$t('faqText.order.p2')}}</p>
+    <p>
+      <b>{{$t('faqText.order.b3')}}</b>
+    </p>
+    <p>1. {{$t('faqText.order.p3')}}<br> 2. {{$t('faqText.order.p4')}} </p>
+    <p>
+      <b>{{$t('faqText.order.b4')}}</b>
+    </p>
+    <p>{{$t('faqText.order.p5')}}<br>{{$t('faqText.order.p6')}}</p>
+    <p>
+      <b>{{$t('faqText.order.b5')}}</b>
+    </p>
+    <p>{{$t('faqText.order.p7')}}</p>
+    <p>
+      <b>{{$t('faqText.order.b6')}}</b>
+    </p>
+    <p>{{$t('faqText.order.p8')}}</p>
+  </div>
+</template>

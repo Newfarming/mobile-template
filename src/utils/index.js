@@ -68,6 +68,16 @@ export function isMidEast () {
   return midEast.indexOf(getCountry()) > -1
 }
 
+export function isItaly () {
+  return getCountry() === 'it'
+}
+
+export function getCountryConfig () {
+  const CountryConst = require('./country-const');
+  const { defConf } = CountryConst;
+  const countryCode = getCountry();
+  return CountryConst[countryCode] || defConf;
+}
 /**
  * 保存搜索历史，全量更新保存
  * @param {Array} searches

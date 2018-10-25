@@ -96,6 +96,7 @@ export default {
     'state': 'Estado',
     'street': 'Nome e n\u00famero da Rua, Nome do Edif\u00edcio, n\u00famero do apartamento (em Ingl\u00eas)',
     'pincode': 'C\u00f3digo PIN',
+    'CAP': 'CAP',
     'optional': '(Optional)',
     'cpf': 'CPF',
     'coupon': 'Insira seu c\u00f3digo promocional',
