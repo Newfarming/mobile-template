@@ -1,50 +1,13 @@
 <template>
 
   <div class="home" id="home">
-    12345
+    asdsas
+  </div>
 </template>
 
 <script>
   // import ProductList from '@/components/ProductList'
   export default {
-    components: {
-    },
-    async created() {
-      // this.$loading.show()
-    },
-
-    data() {
-      return {
-        isShowGenderChoose: false,
-      }
-    },
-
-    methods: {
-    },
-
-    computed: {
-      // ...mapState({
-      //   countryCode: 'countryCode'
-      // }),
-
-      // ...mapGetters({
-      //   amountOff: 'amountOff'
-      // })
-
-
-    },
-
-    mounted() {
-    },
-
-    activated() {
-    },
-
-    deactivated() {
-    },
-
-    beforeRouteLeave(to, from, next) {
-    }
   }
 </script>
 

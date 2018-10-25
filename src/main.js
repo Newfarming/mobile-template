@@ -15,13 +15,6 @@ import {
 } from './setup/setup-i18n'
 import googleAnalytics from './setup/setup-google-analytics'
 import facebookPixel from './setup/setup-facebook-pixel'
-import toast from './components/plugins/toast'
-import loading from './components/plugins/loading'
-import modal from './components/plugins/modal'
-
-Vue.use(toast)
-Vue.use(loading)
-Vue.use(modal)
 
 Vue.config.productionTip = false
 
