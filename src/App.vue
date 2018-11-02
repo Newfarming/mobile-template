@@ -1,33 +1,9 @@
 <template>
-  <div id="app" :class="sys">
-    <!-- <header id="header" ref="header" v-if="isShowHeader">
-      <download-app v-if="isShowDownload" :is-show="isDownloadAppShow"></download-app>
-      <nav-bar @toggle-country-box="handleCountryBox" @toggle-search-box="handleSearchBox"></nav-bar>
-      <category-bar v-if="isShowCategory"></category-bar>
-    </header> -->
-    <!-- <div class="app-container">
-      <main id="main" ref="main" :class="[mainClass, isLoading ? 'loading': '']">
+  <div id="app">
 
-        <keep-alive>
-          <router-view v-if="$route.meta.keepAlive"></router-view>
-        </keep-alive>
-
-        <router-view></router-view>
-
-      </main> -->
     <router-view></router-view>
   </div>
 
-  <!-- <footer v-if="isShowFooter">
-      <tab></tab>
-    </footer> -->
-
-  <!-- <section>
-      <transition name="fade">
-        <country-box v-if="isShowCountry"></country-box>
-        <search-box v-if="isShowSearch"></search-box>
-      </transition>
-    </section> -->
   </div>
 </template>
 
