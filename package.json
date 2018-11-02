@@ -1,8 +1,8 @@
 {
-  "name": "mobile-pwa",
+  "name": "{name}",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "lujin <jinlu@epiclouds.net>",
+  "description": "{description}",
+  "author": "{author}",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.conf.js",
