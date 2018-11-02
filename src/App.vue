@@ -1,39 +1,37 @@
 <template>
   <div id="app" :class="sys">
-    <header id="header" ref="header" v-if="isShowHeader">
+    <!-- <header id="header" ref="header" v-if="isShowHeader">
       <download-app v-if="isShowDownload" :is-show="isDownloadAppShow"></download-app>
       <nav-bar @toggle-country-box="handleCountryBox" @toggle-search-box="handleSearchBox"></nav-bar>
       <category-bar v-if="isShowCategory"></category-bar>
-    </header>
-    <div class="app-container">
+    </header> -->
+    <!-- <div class="app-container">
       <main id="main" ref="main" :class="[mainClass, isLoading ? 'loading': '']">
 
         <keep-alive>
           <router-view v-if="$route.meta.keepAlive"></router-view>
         </keep-alive>
 
-        <router-view v-if="!$route.meta.keepAlive"></router-view>
+        <router-view></router-view>
 
-      </main>
-    </div>
+      </main> -->
+    <router-view></router-view>
+  </div>
 
-    <footer v-if="isShowFooter">
+  <!-- <footer v-if="isShowFooter">
       <tab></tab>
-    </footer>
+    </footer> -->
 
-    <section>
+  <!-- <section>
       <transition name="fade">
         <country-box v-if="isShowCountry"></country-box>
         <search-box v-if="isShowSearch"></search-box>
       </transition>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
-  import Tab from 'components/Tab'
-  import NavBar from 'components/NavBar'
-  import DownloadApp from 'components/DownloadApp'
   import {
     mapState
   } from 'vuex'
@@ -51,18 +49,6 @@
   export default {
     name: 'app',
     components: {
-      Tab,
-      NavBar,
-      DownloadApp,
-      'category-bar': () => ({
-        component: import('components/CategoryBar')
-      }),
-      'country-box': () => ({
-        component: import('components/CountryBox')
-      }),
-      'search-box': () => ({
-        component: import('components/SearchBox')
-      })
     },
     data () {
       return {
